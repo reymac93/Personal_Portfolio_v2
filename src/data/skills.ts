@@ -1,0 +1,153 @@
+export type SkillDomain = {
+  id: string
+  title: string
+  blurb: string
+  icon: 'layers' | 'server' | 'database' | 'cloud' | 'brain' | 'wrench'
+  accent: string
+  span: 'wide' | 'tall' | 'normal'
+  skills: string[]
+}
+
+export const skillDomains: SkillDomain[] = [
+  {
+    id: 'ai-ml',
+    title: 'AI / Machine Learning',
+    blurb:
+      'Training, evaluating, and shipping models — then keeping them honest with monitoring and versioned deployments.',
+    icon: 'brain',
+    accent: 'var(--color-violet-glow)',
+    span: 'wide',
+    skills: [
+      'Python',
+      'scikit-learn',
+      'TensorFlow',
+      'PyTorch',
+      'Pandas',
+      'NumPy',
+      'Model Deployment',
+      'Data Processing',
+      'Feature Engineering',
+    ],
+  },
+  {
+    id: 'backend',
+    title: 'Backend & APIs',
+    blurb: 'Services built for concurrency, clear contracts, and predictable failure.',
+    icon: 'server',
+    accent: 'var(--color-accent-400)',
+    span: 'tall',
+    skills: [
+      'Node.js',
+      'FastAPI',
+      'Django',
+      'Express',
+      'C#',
+      '.NET Core',
+      '.NET Framework',
+      'Java',
+      'PHP',
+      'Laravel',
+      'Golang',
+      'REST',
+    ],
+  },
+  {
+    id: 'frontend',
+    title: 'Frontend',
+    blurb: 'Interfaces that stay fast and accessible as they grow.',
+    icon: 'layers',
+    accent: 'var(--color-cyan-glow)',
+    span: 'normal',
+    skills: [
+      'TypeScript',
+      'JavaScript',
+      'React',
+      'Next.js',
+      'Angular',
+      'Vue',
+      'Tailwind CSS',
+      'HTML5',
+      'CSS3',
+    ],
+  },
+  {
+    id: 'databases',
+    title: 'Databases',
+    blurb: 'Schema design, indexing, and query tuning as a first-class concern.',
+    icon: 'database',
+    accent: 'var(--color-emerald-glow)',
+    span: 'normal',
+    skills: [
+      'PostgreSQL',
+      'SQL Server',
+      'MySQL',
+      'MongoDB',
+      'Redis',
+      'Cosmos DB',
+    ],
+  },
+  {
+    id: 'cloud',
+    title: 'Cloud & DevOps',
+    blurb: 'Reproducible infrastructure and pipelines that make releases boring.',
+    icon: 'cloud',
+    accent: 'var(--color-amber-glow)',
+    span: 'wide',
+    skills: [
+      'Microsoft Azure',
+      'AWS',
+      'Docker',
+      'Kubernetes',
+      'Terraform',
+      'Azure DevOps',
+      'GitHub Actions',
+      'GitLab CI/CD',
+      'Jenkins',
+    ],
+  },
+  {
+    id: 'tools',
+    title: 'Tools & Practices',
+    blurb: 'The daily kit, plus the habits that keep teams in sync.',
+    icon: 'wrench',
+    accent: 'var(--color-rose-glow)',
+    span: 'normal',
+    skills: [
+      'Git',
+      'Postman',
+      'Agile / Scrum',
+      'Code Review',
+      'Observability',
+      'WordPress',
+      'Salesforce CMS',
+    ],
+  },
+]
+
+/** Flat list for the infinite marquee ticker. */
+export const marqueeTech = [
+  'TypeScript',
+  'React',
+  'Next.js',
+  'Node.js',
+  'Python',
+  'FastAPI',
+  'Django',
+  'TensorFlow',
+  'PyTorch',
+  'scikit-learn',
+  'PostgreSQL',
+  'MongoDB',
+  'Redis',
+  'Docker',
+  'Kubernetes',
+  'Terraform',
+  'AWS',
+  'Azure',
+  'Angular',
+  'Vue',
+  '.NET Core',
+  'Golang',
+  'GraphQL',
+  'CI/CD',
+]

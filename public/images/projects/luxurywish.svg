@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" role="img">
+  <defs>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+<radialGradient id="g" cx="800" cy="460" r="660" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#d4af6a" stop-opacity="0.3"/>
+        <stop offset="1" stop-color="#d4af6a" stop-opacity="0"/>
+      </radialGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="#0c0a07"/>
+<rect width="1600" height="1000" fill="url(#g)"/>
+  <rect x="70" y="70" width="1460" height="860" fill="none" stroke="#d4af6a" stroke-width="1" opacity="0.35"/>
+    <rect x="88" y="88" width="1424" height="824" fill="none" stroke="#d4af6a" stroke-width="1" opacity="0.18"/>
+  <text x="800" y="330" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="24"
+    letter-spacing="12" fill="#d4af6a">AUTHENTICATED &#183; CURATED &#183; ONE OF ONE</text>
+  <text x="800" y="500" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="122"
+    letter-spacing="14" fill="#faf6ee">LUXURY WISH</text>
+  <rect x="710" y="546" width="180" height="1.5" fill="#d4af6a" opacity="0.7"/>
+  <text x="800" y="640" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="46"
+    font-style="italic" fill="#e6d9bf">Authenticated luxury, curated.</text>
+  <text x="800" y="742" text-anchor="middle" font-family="'SFMono-Regular', Consolas, monospace" font-size="24"
+    letter-spacing="4" fill="#8d7c5d">SHOPIFY &#183; PROVENANCE &#183; PH</text>
+  <rect width="1600" height="1000" filter="url(#grain)" opacity="0.05" style="mix-blend-mode:overlay"/>
+</svg>

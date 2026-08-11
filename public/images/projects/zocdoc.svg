@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" role="img">
+  <defs>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+<radialGradient id="g" cx="1220" cy="620" r="620" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#ffae42" stop-opacity="0.26"/>
+        <stop offset="1" stop-color="#ffae42" stop-opacity="0"/>
+      </radialGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="#0a1526"/>
+<rect width="1600" height="1000" fill="url(#g)"/>
+  <rect x="980" y="500" width="92" height="92" rx="14" fill="#ffae42" opacity="0.85" stroke="#ffae42" stroke-width="1.5" /><rect x="980" y="616" width="92" height="92" rx="14" fill="none" opacity="1" stroke="#ffae42" stroke-width="1.5" stroke-opacity="0.35"/><rect x="980" y="732" width="92" height="92" rx="14" fill="none" opacity="1" stroke="#ffae42" stroke-width="1.5" stroke-opacity="0.35"/><rect x="1096" y="500" width="92" height="92" rx="14" fill="none" opacity="1" stroke="#ffae42" stroke-width="1.5" stroke-opacity="0.35"/><rect x="1096" y="616" width="92" height="92" rx="14" fill="none" opacity="1" stroke="#ffae42" stroke-width="1.5" stroke-opacity="0.35"/><rect x="1096" y="732" width="92" height="92" rx="14" fill="#ffae42" opacity="0.85" stroke="#ffae42" stroke-width="1.5" /><rect x="1212" y="500" width="92" height="92" rx="14" fill="none" opacity="1" stroke="#ffae42" stroke-width="1.5" stroke-opacity="0.35"/><rect x="1212" y="616" width="92" height="92" rx="14" fill="#ffae42" opacity="0.85" stroke="#ffae42" stroke-width="1.5" /><rect x="1212" y="732" width="92" height="92" rx="14" fill="none" opacity="1" stroke="#ffae42" stroke-width="1.5" stroke-opacity="0.35"/><rect x="1328" y="500" width="92" height="92" rx="14" fill="#ffae42" opacity="0.85" stroke="#ffae42" stroke-width="1.5" /><rect x="1328" y="616" width="92" height="92" rx="14" fill="none" opacity="1" stroke="#ffae42" stroke-width="1.5" stroke-opacity="0.35"/><rect x="1328" y="732" width="92" height="92" rx="14" fill="none" opacity="1" stroke="#ffae42" stroke-width="1.5" stroke-opacity="0.35"/><rect x="1444" y="500" width="92" height="92" rx="14" fill="none" opacity="1" stroke="#ffae42" stroke-width="1.5" stroke-opacity="0.35"/><rect x="1444" y="616" width="92" height="92" rx="14" fill="none" opacity="1" stroke="#ffae42" stroke-width="1.5" stroke-opacity="0.35"/><rect x="1444" y="732" width="92" height="92" rx="14" fill="#ffae42" opacity="0.85" stroke="#ffae42" stroke-width="1.5" />
+  <text x="110" y="300" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="26" letter-spacing="10"
+    fill="#ffcf8a">HEALTHCARE MARKETPLACE</text>
+  <text x="106" y="452" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="132" font-weight="bold"
+    letter-spacing="-3" fill="#f3f8ff">Zocdoc</text>
+  <rect x="110" y="498" width="120" height="4" fill="#ffae42"/>
+  <text x="110" y="592" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="44" fill="#c3d4ea">
+    Find and book in-network doctors.</text>
+  <text x="110" y="690" font-family="'SFMono-Regular', Consolas, monospace" font-size="24" letter-spacing="3"
+    fill="#7f92ad">SEARCH &#183; AVAILABILITY &#183; REAL-TIME BOOKING</text>
+  <rect width="1600" height="1000" filter="url(#grain)" opacity="0.05" style="mix-blend-mode:overlay"/>
+</svg>

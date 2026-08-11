@@ -1,0 +1,18 @@
+<!-- LIGHT-mode tab icon. Matches the in-page logo in light mode: light tile,
+     dark monogram. The dark "RM" glyph is what carries contrast against the
+     browser tab strip, so the tile can stay light. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="tile" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f2f4f8"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#tile)"/>
+  <!-- Hairline so the tile's shape still reads on a light tab strip -->
+  <rect x="0.9" y="0.9" width="62.2" height="62.2" rx="13.1" fill="none"
+    stroke="#0d1017" stroke-opacity="0.16" stroke-width="1.8"/>
+  <text x="32" y="43" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif"
+    font-size="30" font-weight="700" letter-spacing="-1" fill="#0d1017">RM</text>
+  <circle cx="50" cy="15" r="4" fill="#1a66d8"/>
+</svg>

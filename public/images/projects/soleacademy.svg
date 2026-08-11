@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" role="img">
+  <defs>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+<radialGradient id="g" cx="1240" cy="480" r="640" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#fb923c" stop-opacity="0.32"/>
+        <stop offset="1" stop-color="#fb923c" stop-opacity="0"/>
+      </radialGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="#0b0906"/>
+<rect width="1600" height="1000" fill="url(#g)"/>
+  <path d="M-960 1000 L-660 0 L-612 0 L-912 1000 Z" fill="#fb923c" opacity="0.05"/><path d="M-840 1000 L-540 0 L-492 0 L-792 1000 Z" fill="#fb923c" opacity="0.05"/><path d="M-720 1000 L-420 0 L-372 0 L-672 1000 Z" fill="#fb923c" opacity="0.05"/><path d="M-600 1000 L-300 0 L-252 0 L-552 1000 Z" fill="#fb923c" opacity="0.05"/><path d="M-480 1000 L-180 0 L-132 0 L-432 1000 Z" fill="#fb923c" opacity="0.05"/><path d="M-360 1000 L-60 0 L-12 0 L-312 1000 Z" fill="#fb923c" opacity="0.05"/><path d="M-240 1000 L60 0 L108 0 L-192 1000 Z" fill="#fb923c" opacity="0.05"/><path d="M-120 1000 L180 0 L228 0 L-72 1000 Z" fill="#fb923c" opacity="0.05"/><path d="M0 1000 L300 0 L348 0 L48 1000 Z" fill="#fb923c" opacity="0.05"/><path d="M120 1000 L420 0 L468 0 L168 1000 Z" fill="#fb923c" opacity="0.05"/><path d="M240 1000 L540 0 L588 0 L288 1000 Z" fill="#fb923c" opacity="0.05"/><path d="M360 1000 L660 0 L708 0 L408 1000 Z" fill="#fb923c" opacity="0.05"/><path d="M480 1000 L780 0 L828 0 L528 1000 Z" fill="#fb923c" opacity="0.05"/><path d="M600 1000 L900 0 L948 0 L648 1000 Z" fill="#fb923c" opacity="0.05"/><path d="M720 1000 L1020 0 L1068 0 L768 1000 Z" fill="#fb923c" opacity="0.05"/><path d="M840 1000 L1140 0 L1188 0 L888 1000 Z" fill="#fb923c" opacity="0.05"/><path d="M960 1000 L1260 0 L1308 0 L1008 1000 Z" fill="#fb923c" opacity="0.05"/><path d="M1080 1000 L1380 0 L1428 0 L1128 1000 Z" fill="#fb923c" opacity="0.05"/><path d="M1200 1000 L1500 0 L1548 0 L1248 1000 Z" fill="#fb923c" opacity="0.05"/><path d="M1320 1000 L1620 0 L1668 0 L1368 1000 Z" fill="#fb923c" opacity="0.05"/><path d="M1440 1000 L1740 0 L1788 0 L1488 1000 Z" fill="#fb923c" opacity="0.05"/><path d="M1560 1000 L1860 0 L1908 0 L1608 1000 Z" fill="#fb923c" opacity="0.05"/><path d="M1680 1000 L1980 0 L2028 0 L1728 1000 Z" fill="#fb923c" opacity="0.05"/><path d="M1800 1000 L2100 0 L2148 0 L1848 1000 Z" fill="#fb923c" opacity="0.05"/><path d="M1920 1000 L2220 0 L2268 0 L1968 1000 Z" fill="#fb923c" opacity="0.05"/><path d="M2040 1000 L2340 0 L2388 0 L2088 1000 Z" fill="#fb923c" opacity="0.05"/><path d="M2160 1000 L2460 0 L2508 0 L2208 1000 Z" fill="#fb923c" opacity="0.05"/><path d="M2280 1000 L2580 0 L2628 0 L2328 1000 Z" fill="#fb923c" opacity="0.05"/><path d="M2400 1000 L2700 0 L2748 0 L2448 1000 Z" fill="#fb923c" opacity="0.05"/><path d="M2520 1000 L2820 0 L2868 0 L2568 1000 Z" fill="#fb923c" opacity="0.05"/><path d="M2640 1000 L2940 0 L2988 0 L2688 1000 Z" fill="#fb923c" opacity="0.05"/><path d="M2760 1000 L3060 0 L3108 0 L2808 1000 Z" fill="#fb923c" opacity="0.05"/><path d="M2880 1000 L3180 0 L3228 0 L2928 1000 Z" fill="#fb923c" opacity="0.05"/><path d="M3000 1000 L3300 0 L3348 0 L3048 1000 Z" fill="#fb923c" opacity="0.05"/>
+  <text x="110" y="300" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="26" letter-spacing="10"
+    fill="#fdba74">SNEAKER CULTURE RETAIL</text>
+  <text x="106" y="452" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="128" font-weight="bold"
+    letter-spacing="-2" fill="#fff7ed">SOLE</text>
+  <text x="106" y="580" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="128" font-weight="bold"
+    letter-spacing="-2" fill="#fb923c">ACADEMY</text>
+  <text x="110" y="686" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="42" fill="#e8d9c8">
+    Drops, raffles, and catalogue at launch scale.</text>
+  <rect x="110" y="758" width="290" height="72" fill="#fb923c"/>
+  <text x="255" y="804" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="22"
+    letter-spacing="4" fill="#1a1208">SHOP DROPS</text>
+  <rect width="1600" height="1000" filter="url(#grain)" opacity="0.05" style="mix-blend-mode:overlay"/>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" role="img">
+  <defs>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+<radialGradient id="g" cx="1180" cy="420" r="660" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#2dd4bf" stop-opacity="0.32"/>
+        <stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/>
+      </radialGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="#041210"/>
+<rect width="1600" height="1000" fill="url(#g)"/>
+  <path d="M120 700 L420 700 L470 610 L520 800 L580 660 L640 700 L1480 700"
+    fill="none" stroke="#2dd4bf" stroke-width="3" stroke-linejoin="round"
+    stroke-linecap="round" opacity="0.55"/>
+  <text x="110" y="300" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="26" letter-spacing="10"
+    fill="#5eead4">DIRECT PRIMARY CARE</text>
+  <text x="106" y="452" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="126" font-weight="bold"
+    letter-spacing="-3" fill="#eafffb">Devoted Doc</text>
+  <rect x="110" y="498" width="120" height="4" fill="#2dd4bf"/>
+  <text x="110" y="592" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="44" fill="#a7ded6">
+    Primary care without the insurance maze.</text>
+  <rect x="110" y="790" width="300" height="72" rx="36" fill="#2dd4bf"/>
+  <text x="260" y="836" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="22"
+    letter-spacing="3" fill="#04211d">BECOME A MEMBER</text>
+  <rect width="1600" height="1000" filter="url(#grain)" opacity="0.05" style="mix-blend-mode:overlay"/>
+</svg>

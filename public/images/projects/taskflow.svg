@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" role="img">
+  <defs>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+
+  </defs>
+  <rect width="1600" height="1000" fill="#f7f8fa"/>
+<rect x="0" y="0" width="356" height="1000" fill="#ffffff"/>
+  <rect x="356" y="0" width="1" height="1000" fill="#e6e9ef"/>
+  <rect x="0" y="0" width="1600" height="86" fill="#ffffff"/>
+  <rect x="0" y="86" width="1600" height="1" fill="#e6e9ef"/>
+  <rect x="30" y="26" width="38" height="38" rx="10" fill="#2f6bff"/>
+  <path d="M42 38 L56 38 L45 54 L52 44 L42 44 Z" fill="#ffffff"/>
+  <text x="82" y="46" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#141922">TaskFlow</text>
+  <text x="82" y="68" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" fill="#8d97a8">Productivity Suite</text>
+  <rect x="404" y="28" width="520" height="36" rx="18" fill="#f1f3f7"/>
+  <text x="432" y="52" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" fill="#9aa3b2">Search tasks, lists, people...</text>
+  
+      <rect x="46" y="234" width="22" height="22" rx="5" fill="none" stroke="#8d97a8" stroke-width="2"/>
+      <text x="86" y="252" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="21" fill="#4a5464">All Tasks</text>
+      <rect x="46" y="296" width="22" height="22" rx="5" fill="none" stroke="#8d97a8" stroke-width="2"/>
+      <text x="86" y="314" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="21" fill="#4a5464">Today</text>
+      <rect x="46" y="358" width="22" height="22" rx="5" fill="none" stroke="#8d97a8" stroke-width="2"/>
+      <text x="86" y="376" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="21" fill="#4a5464">Tomorrow</text><rect x="24" y="410" width="308" height="50" rx="10" fill="#e8eef8"/>
+      <rect x="46" y="420" width="22" height="22" rx="5" fill="none" stroke="#8d97a8" stroke-width="2"/>
+      <text x="86" y="438" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="21" fill="#1f56c8">Next 7 Days</text>
+      <rect x="46" y="482" width="22" height="22" rx="5" fill="none" stroke="#8d97a8" stroke-width="2"/>
+      <text x="86" y="500" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="21" fill="#4a5464">Inbox</text>
+      <rect x="46" y="544" width="22" height="22" rx="5" fill="none" stroke="#8d97a8" stroke-width="2"/>
+      <text x="86" y="562" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="21" fill="#4a5464">Calendar</text>
+      <rect x="46" y="606" width="22" height="22" rx="5" fill="none" stroke="#8d97a8" stroke-width="2"/>
+      <text x="86" y="624" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="21" fill="#4a5464">Team Workload</text>
+      <rect x="46" y="668" width="22" height="22" rx="5" fill="none" stroke="#8d97a8" stroke-width="2"/>
+      <text x="86" y="686" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="21" fill="#4a5464">Analytics</text>
+  <text x="404" y="170" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="46" font-weight="bold" fill="#141922">Next 7 Days</text>
+  <text x="404" y="210" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="20" fill="#8d97a8">Aug 11 – Aug 17</text>
+  <rect x="404" y="240" width="72" height="34" rx="17" fill="#2f6bff"/>
+  <text x="440" y="263" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" fill="#ffffff">All</text>
+  <rect x="404" y="300" width="740" height="62" rx="10" fill="#eef2f7" stroke="#e6e9ef"/>
+      <rect x="418" y="314" width="4" height="34" rx="2" fill="#f5a623"/>
+      <rect x="438" y="321" width="20" height="20" rx="5" fill="none" stroke="#c3c9d4" stroke-width="2"/>
+      <text x="476" y="338" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="21" fill="#1e2430">Listing appointment — 765 Prairie Sq</text>
+      <text x="1128" y="338" text-anchor="end" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" fill="#e0533d">Aug 5, 10:30</text><rect x="404" y="378" width="740" height="62" rx="10" fill="#ffffff" stroke="#e6e9ef"/>
+      <rect x="418" y="392" width="4" height="34" rx="2" fill="#f5a623"/>
+      <rect x="438" y="399" width="20" height="20" rx="5" fill="none" stroke="#c3c9d4" stroke-width="2"/>
+      <text x="476" y="416" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="21" fill="#1e2430">Update MLS description — 765 Prairie Sq</text>
+      <text x="1128" y="416" text-anchor="end" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" fill="#e0533d">Aug 5</text><rect x="404" y="456" width="740" height="62" rx="10" fill="#ffffff" stroke="#e6e9ef"/>
+      <rect x="418" y="470" width="4" height="34" rx="2" fill="#f5a623"/>
+      <rect x="438" y="477" width="20" height="20" rx="5" fill="none" stroke="#c3c9d4" stroke-width="2"/>
+      <text x="476" y="494" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="21" fill="#1e2430">Renew listing agreement — 412 Fairmont Ave</text>
+      <text x="1128" y="494" text-anchor="end" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" fill="#e0533d">Aug 5, 17:45</text><rect x="404" y="534" width="740" height="62" rx="10" fill="#ffffff" stroke="#e6e9ef"/>
+      <rect x="418" y="548" width="4" height="34" rx="2" fill="#f5a623"/>
+      <rect x="438" y="555" width="20" height="20" rx="5" fill="none" stroke="#c3c9d4" stroke-width="2"/>
+      <text x="476" y="572" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="21" fill="#1e2430">Seller update call — Sandoval</text>
+      <text x="1128" y="572" text-anchor="end" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" fill="#e0533d">Aug 8</text><rect x="404" y="612" width="740" height="62" rx="10" fill="#ffffff" stroke="#e6e9ef"/>
+      <rect x="418" y="626" width="4" height="34" rx="2" fill="#f5a623"/>
+      <rect x="438" y="633" width="20" height="20" rx="5" fill="none" stroke="#c3c9d4" stroke-width="2"/>
+      <text x="476" y="650" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="21" fill="#1e2430">Price review: 52 Maple Grove</text>
+      <text x="1128" y="650" text-anchor="end" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" fill="#e0533d">Aug 12</text><rect x="404" y="690" width="740" height="62" rx="10" fill="#ffffff" stroke="#e6e9ef"/>
+      <rect x="418" y="704" width="4" height="34" rx="2" fill="#f5a623"/>
+      <rect x="438" y="711" width="20" height="20" rx="5" fill="none" stroke="#c3c9d4" stroke-width="2"/>
+      <text x="476" y="728" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="21" fill="#1e2430">Renew listing agreement — 901 Chestnut Row</text>
+      <text x="1128" y="728" text-anchor="end" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" fill="#e0533d">Aug 12, 14:00</text>
+  <rect x="1188" y="120" width="384" height="760" rx="16" fill="#ffffff" stroke="#e6e9ef"/>
+  <text x="1216" y="178" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#141922">Listing appointment</text>
+  <rect x="1216" y="204" width="150" height="34" rx="8" fill="#f1f3f7"/>
+  <text x="1291" y="227" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" fill="#4a5464">Aug 5 · 10:30</text>
+  <rect x="1378" y="204" width="110" height="34" rx="8" fill="#fff3d6"/>
+  <text x="1433" y="227" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" fill="#a06c00">Medium</text>
+  <text x="1216" y="300" font-family="'SFMono-Regular', Consolas, monospace" font-size="15" letter-spacing="2" fill="#9aa3b2">NOTES</text>
+  <rect x="1216" y="318" width="328" height="140" rx="10" fill="#fafbfc" stroke="#e6e9ef"/>
+  <text x="1216" y="512" font-family="'SFMono-Regular', Consolas, monospace" font-size="15" letter-spacing="2" fill="#9aa3b2">SUBTASKS · 0/3</text>
+  <circle cx="1228" cy="552" r="10" fill="none" stroke="#c3c9d4" stroke-width="2"/>
+      <text x="1252" y="558" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="19" fill="#4a5464">Comps pulled</text><circle cx="1228" cy="598" r="10" fill="none" stroke="#c3c9d4" stroke-width="2"/>
+      <text x="1252" y="604" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="19" fill="#4a5464">Photos booked</text><circle cx="1228" cy="644" r="10" fill="none" stroke="#c3c9d4" stroke-width="2"/>
+      <text x="1252" y="650" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="19" fill="#4a5464">Net sheet</text>
+  <rect width="1600" height="1000" filter="url(#grain)" opacity="0.05" style="mix-blend-mode:overlay"/>
+</svg>

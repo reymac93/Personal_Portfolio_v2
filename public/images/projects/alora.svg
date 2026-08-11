@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" role="img">
+  <defs>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+<radialGradient id="g" cx="800" cy="380" r="620" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#c8102e" stop-opacity="0.62"/>
+        <stop offset="1" stop-color="#c8102e" stop-opacity="0"/>
+      </radialGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="#050405"/>
+<rect width="1600" height="1000" fill="url(#g)"/>
+  <text x="800" y="235" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="26"
+    letter-spacing="12" fill="#e9e2e4" opacity="0.82">PRIVATE ACCESS &#183; GLOBAL TALENT</text>
+  <text x="800" y="500" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="186"
+    letter-spacing="26" fill="#ffffff">ALORA</text>
+  <rect x="570" y="548" width="460" height="2" fill="#e2637a" opacity="0.55"/>
+  <text x="800" y="655" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="58" fill="#f2eaec">
+    Where the world <tspan font-style="italic" fill="#e8425f">books beautiful talent.</tspan></text>
+  <rect x="550" y="775" width="230" height="76" fill="#8e1027"/>
+  <text x="665" y="822" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="22"
+    letter-spacing="4" fill="#ffffff">BOOK TALENT</text>
+  <rect x="820" y="775" width="240" height="76" fill="none" stroke="#8a8082" stroke-width="1.5"/>
+  <text x="940" y="822" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="22"
+    letter-spacing="4" fill="#efe9ea">APPLY TO ALORA</text>
+  <rect width="1600" height="1000" filter="url(#grain)" opacity="0.05" style="mix-blend-mode:overlay"/>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" role="img">
+  <defs>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+<radialGradient id="g" cx="1330" cy="500" r="620" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#84cc16" stop-opacity="0.34"/>
+        <stop offset="1" stop-color="#84cc16" stop-opacity="0"/>
+      </radialGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="#07120a"/>
+<rect width="1600" height="1000" fill="url(#g)"/>
+  <circle cx="1330" cy="500" r="300" fill="none" stroke="#84cc16" stroke-width="1.5" opacity="0.3"/>
+    <circle cx="1330" cy="500" r="220" fill="none" stroke="#84cc16" stroke-width="1.5" opacity="0.22"/>
+    <circle cx="1330" cy="500" r="140" fill="none" stroke="#84cc16" stroke-width="1.5" opacity="0.16"/>
+    <circle cx="1330" cy="500" r="60" fill="#84cc16" opacity="0.16"/>
+  <text x="110" y="300" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="26" letter-spacing="10"
+    fill="#a3e635">NUTRITION &#183; RECIPES &#183; COMMERCE</text>
+  <text x="106" y="470" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="132" font-weight="bold"
+    letter-spacing="-3" fill="#f2fbe9">KetoDiet</text>
+  <rect x="110" y="516" width="120" height="4" fill="#84cc16"/>
+  <text x="110" y="612" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="44" fill="#cfe8b4">
+    Keto nutrition, recipes, and commerce.</text>
+  <text x="110" y="700" font-family="'SFMono-Regular', Consolas, monospace" font-size="26" letter-spacing="3"
+    fill="#7d9c62">SHOPIFY &#183; LIQUID &#183; CORE WEB VITALS</text>
+  <rect width="1600" height="1000" filter="url(#grain)" opacity="0.05" style="mix-blend-mode:overlay"/>
+</svg>
