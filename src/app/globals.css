@@ -60,6 +60,7 @@
   --aurora-c: rgba(167, 139, 250, 0.18);
   --wash-expertise: rgba(37, 99, 235, 0.1);
   --wash-work: rgba(167, 139, 250, 0.07);
+  --wash-clients: rgba(239, 90, 112, 0.08);
   --wash-contact: rgba(37, 99, 235, 0.16);
   --cursor-tint: rgba(93, 169, 255, 0.14);
   --cursor-blend: screen;
@@ -140,6 +141,7 @@
   --aurora-c: rgba(167, 139, 250, 0.14);
   --wash-expertise: rgba(37, 99, 235, 0.07);
   --wash-work: rgba(124, 58, 237, 0.05);
+  --wash-clients: rgba(176, 12, 38, 0.05);
   --wash-contact: rgba(37, 99, 235, 0.1);
   --cursor-tint: rgba(37, 99, 235, 0.1);
   --cursor-blend: multiply; /* `screen` is invisible over white */

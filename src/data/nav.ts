@@ -3,7 +3,15 @@ export const navLinks = [
   { id: 'expertise', label: 'Expertise', href: '#expertise', index: '02' },
   { id: 'experience', label: 'Experience', href: '#experience', index: '03' },
   { id: 'work', label: 'Work', href: '#work', index: '04' },
-  { id: 'contact', label: 'Contact', href: '#contact', index: '05' },
+  { id: 'clients', label: 'Clients', href: '#clients', index: '05' },
+  { id: 'contact', label: 'Contact', href: '#contact', index: '06' },
 ] as const
 
-export const sectionIds = ['about', 'expertise', 'experience', 'work', 'contact'] as const
+export const sectionIds = [
+  'about',
+  'expertise',
+  'experience',
+  'work',
+  'clients',
+  'contact',
+] as const

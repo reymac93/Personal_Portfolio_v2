@@ -102,7 +102,7 @@ export const stats = [
     detail: 'Since 2014, across three engineering orgs',
   },
   {
-    value: 9,
+    value: 10,
     suffix: '',
     label: 'Products in production',
     detail: 'Commerce, healthcare, and AI platforms',

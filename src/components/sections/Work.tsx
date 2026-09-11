@@ -245,7 +245,7 @@ export function Work() {
               <span className="text-fg-faint">production right now.</span>
             </>
           }
-          intro="Nine shipped platforms across AI, healthcare, and commerce. Every entry lists what I actually owned — follow the links and judge the work yourself."
+          intro="Ten shipped platforms across AI, healthcare, and commerce. Every entry lists what I actually owned — follow the links and judge the work yourself."
         />
 
         {/* Filter */}

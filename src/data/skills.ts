@@ -148,6 +148,7 @@ export const marqueeTech = [
   'Vue',
   '.NET Core',
   'Golang',
+  'Shopify',
   'GraphQL',
   'CI/CD',
 ]

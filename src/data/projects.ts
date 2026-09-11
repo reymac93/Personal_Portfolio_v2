@@ -52,7 +52,7 @@ export const projects: Project[] = [
     ],
     stack: ['Next.js', 'TypeScript', 'FastAPI', 'PostgreSQL', 'AWS'],
     url: 'https://joinalora.ai/',
-    image: '/images/projects/alora.svg',
+    image: '/images/projects/alora.png',
     accent: '#ef5a70',
     accentLight: '#b00c26',
     featured: true,
@@ -73,7 +73,7 @@ export const projects: Project[] = [
     ],
     stack: ['Next.js', 'Python', 'FastAPI', 'PostgreSQL', 'Redis', 'Azure'],
     url: 'https://salmaplus.ai/',
-    image: '/images/projects/salmaplus.svg',
+    image: '/images/projects/salmaplus.png',
     accent: '#4c8dff',
     accentLight: '#1d5fd6',
     featured: true,
@@ -94,7 +94,7 @@ export const projects: Project[] = [
     ],
     stack: ['Next.js', 'Python', 'FastAPI', 'PostgreSQL', 'Mapbox', 'AWS'],
     url: 'https://weruntheworld.ai/',
-    image: '/images/projects/weruntheworld.svg',
+    image: '/images/projects/weruntheworld.png',
     accent: '#cbb894',
     accentLight: '#8a6f2f',
     featured: true,
@@ -116,9 +116,32 @@ export const projects: Project[] = [
       'Implemented Today / Tomorrow / Next 7 Days scheduling with assignee and workload rollups.',
     ],
     stack: ['React', 'TypeScript', 'Node.js', 'PostgreSQL', 'WebSocket'],
-    image: '/images/projects/taskflow.svg',
+    image: '/images/projects/taskflow.png',
     accent: '#3b82f6',
     accentLight: '#1d5fd6',
+    featured: true,
+    year: '2026',
+  },
+
+  // ---------------------------------------------------------------- Commerce
+  {
+    id: 'sotobeach',
+    name: 'So To Beach',
+    tagline: 'Resortwear for sun-soaked days.',
+    category: 'commerce',
+    description:
+      'A UK Shopify store for designer beachwear, raffia hats, and vacation sets — house line plus Pitusa and Chelsea Peers — merchandised so a collection story leads cleanly into the cart.',
+    role: 'Shopify development — theme architecture, merchandising, and conversion',
+    contributions: [
+      'Built custom theme sections for collection stories, bestsellers, and multi-brand browsing.',
+      'Merchandised hats, beachwear, and sets so the catalogue reads as an edit, not a grid dump.',
+      'Tuned the homepage path from lookbook to checkout — social proof, collection CTAs, and mobile cart.',
+    ],
+    stack: ['Shopify', 'Liquid', 'JavaScript', 'CSS'],
+    url: 'https://sotobeach.co.uk/',
+    image: '/images/projects/sotobeach.png',
+    accent: '#d4b07a',
+    accentLight: '#8b6530',
     featured: true,
     year: '2026',
   },
@@ -165,7 +188,7 @@ export const projects: Project[] = [
     year: '2021',
   },
 
-  // ---------------------------------------------------------------- Commerce
+  // ---------------------------------------------------------------- Commerce (also shipped)
   {
     id: 'ketodiet',
     name: 'KetoDiet',

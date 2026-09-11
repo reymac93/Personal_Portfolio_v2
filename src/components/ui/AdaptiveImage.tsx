@@ -4,10 +4,11 @@ import Image from 'next/image'
  * Fills its (positioned) parent with an image.
  *
  * Raster sources go through next/image (resizing, AVIF/WebP, srcset).
- * SVG sources use a plain <img>: the optimizer cannot process SVG, so
- * next/image would run in `unoptimized` mode — all of the inline fill-style
- * machinery, none of the benefit. Swapping a placeholder for a `.jpg`/`.png`
- * switches it to the optimized path with no other change.
+ * Layout is class-based (`absolute inset-0 size-full`) rather than the `fill`
+ * prop — `fill` injects inline position/height styles that Next 16 serialises
+ * differently on the server and the client, which trips hydration.
+ *
+ * SVG sources use a plain <img>: the optimizer cannot process SVG.
  */
 export function AdaptiveImage({
   src,
@@ -22,6 +23,8 @@ export function AdaptiveImage({
   priority?: boolean
   className?: string
 }) {
+  const frame = `absolute inset-0 size-full max-w-none ${className}`
+
   if (src.endsWith('.svg')) {
     return (
       // eslint-disable-next-line @next/next/no-img-element
@@ -30,8 +33,7 @@ export function AdaptiveImage({
         alt={alt}
         loading={priority ? 'eager' : 'lazy'}
         decoding="async"
-        // Layout via classes only — no inline styles to collide with.
-        className={`absolute inset-0 size-full ${className}`}
+        className={frame}
       />
     )
   }
@@ -40,10 +42,11 @@ export function AdaptiveImage({
     <Image
       src={src}
       alt={alt}
-      fill
+      width={1600}
+      height={1000}
       sizes={sizes}
       priority={priority}
-      className={className}
+      className={frame}
     />
   )
 }
